@@ -64,16 +64,100 @@ li{
 
     
 }
-.cards{
-    width: 300px;
-    height: 300px;
-    background-color:#D25D5D;
-   
-    border-radius: 10px;
-}
+
 #container{
     padding: 30px;
- 
+    
     display:flex;
     justify-content:space-around;
+}
+.cards{
+    width: 300px;
+    
+    background-color:#D25D5D;
+    
+    border-radius: 10px;
+}
+.cards h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+  
+   
+}
+.cards h2{
+    text-align: center;
+    color: white;
+    
+    font-size: 20px;
+}
+.cards p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.cards button{
+    background-color: #B9375D;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cards button:hover{
+    cursor: pointer;
+    background-color: #DDD;
+    color: #000;
+
+}
+
+#contact{
+
+    
+    
+    background-color: #D25D5D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#contact h1{
+  
+    margin-bottom: 20px;
+}
+#form{
+   
+    margin: 30px;
+    font-size: 20px;
+}
+#form input{
+    margin-left: 18px;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form textarea{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#form button{
+    background-color: #B9375D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#form button:hover{
+    cursor: pointer;
+    background-color: #DDD;
+    color: #000;
 }
